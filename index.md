@@ -8,25 +8,32 @@ Take your time ([Time relativity](https://en.wikipedia.org/wiki/Theory_of_relati
 
  <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+  <button class="tablinks" onclick="openTabs(event, 'LiveStream')">Live Stream</button>
+  <button class="tablinks" onclick="openTabs(event, 'LastCreation')">Last Creation</button>
+  <button class="tablinks" onclick="openTabs(event, 'FTO_Update')">FTO Update</button>
 </div>
 
 <!-- Tab content -->
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
+<div id="LiveStream" class="tabcontent">
+  <iframe
+    src="https://player.twitch.tv/?channel=wabteytv&parent=streamernews.example.com&muted=true"
+    height="720"
+    width="1280"
+    allowfullscreen>
+  </iframe>
 </div>
 
-<div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p>
+<div id="LastCreation" class="tabcontent">
+  <iframe
+    src="https://www.twitch.tv/videos/1129521166"
+    height="720"
+    width="1280"
+    allowfullscreen>
+  </iframe>
 </div>
 
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
+<div id="FTO_Update" class="tabcontent">
+  <p>It's' going well.</p>
 </div>
 
 ## Fake Art
@@ -89,7 +96,7 @@ Style the tab content
 </style>
 
 <script>
-function openCity(evt, cityName) {
+function openTabs(evt, tabName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -99,7 +106,7 @@ function openCity(evt, cityName) {
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
 
