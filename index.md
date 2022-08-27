@@ -4,8 +4,6 @@ Take your time ([Time relativity](https://en.wikipedia.org/wiki/Theory_of_relati
 
 ## Live Stream
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/M5qiXRKrXBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
  <!-- Tab links -->
 <div class="tab">
   <button class="tablinks" onclick="openTabs(event, 'LiveStream')">Live Stream</button>
@@ -17,19 +15,22 @@ Take your time ([Time relativity](https://en.wikipedia.org/wiki/Theory_of_relati
 <div id="LiveStream" class="tabcontent">
   <iframe
     src="https://player.twitch.tv/?channel=wabteytv&parent=streamernews.example.com&muted=true"
-    height="720"
-    width="1280"
+    height="560"
+    width="315"
     allowfullscreen>
   </iframe>
 </div>
 
 <div id="LastCreation" class="tabcontent">
   <iframe
-    src="https://www.twitch.tv/videos/1129521166"
-    height="720"
-    width="1280"
-    allowfullscreen>
-  </iframe>
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/M5qiXRKrXBc"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
 </div>
 
 <div id="FTO_Update" class="tabcontent">
