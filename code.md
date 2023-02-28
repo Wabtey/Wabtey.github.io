@@ -1,6 +1,6 @@
-## Fabien et la trahison de Olf
+# Fabien et la trahison de Olf
 
-## [Fight Arena](fabinistere.github.io/fight_arena)
+## [Fight Arena](https://fabinistere.github.io/fight_arena)
 
 I dev some feature here to be implemented in [FTO](https://github.com/Elzapat/fabien-et-la-trahison-de-olf)
 
