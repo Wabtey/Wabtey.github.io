@@ -18,4 +18,4 @@ All edit projects:
 - [[Wabximes]]
 - [[Disc Room - Lobotomie]]
 
-<https://www.youtube.com/watch?v=5XSvdxI8yz0>
+<https://www.youtube.com/@wabteytv>
